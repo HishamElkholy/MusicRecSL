@@ -2,7 +2,7 @@ import streamlit as st
 
 
 
-st.title("Music Recommendation")
+#st.title("Music Recommendation")
 #st.image("MusRec.png")
 st.write("Liliana L. Cubas Gaona")
 st.write("Jorge Medina Victoria")
