@@ -93,34 +93,34 @@ st.write("- Key: musical key of the track according to pitch")
 st.write("- Mode: Related to the key of a musical track. It indicates if a track is in a minor key 0 or a major key 1")
 st.write("- Acousticness: A measure in the range from 0 to 1 indicating the influence of acoustic instruments. 0 indicates only electronic instruments 1 indicate only acoustic instruments")
 
-cont_df = pd.read_csv('context_content_features.csv', usecols=range(0, 22))
+//cont_df = pd.read_csv('context_content_features.csv', usecols=range(0, 22))
 
-fig = plt.figure(figsize = (16, 16))
+//fig = plt.figure(figsize = (16, 16))
 
-plt.title('Histogram of all variables')
+//plt.title('Histogram of all variables')
 
-plt.subplot(331)
-plt.hist(cont_df['instrumentalness'], bins = 20)  
-plt.xlabel('instrumentalness')
-plt.ylabel('counts')
+//plt.subplot(331)
+//plt.hist(cont_df['instrumentalness'], bins = 20)  
+//plt.xlabel('instrumentalness')
+//plt.ylabel('counts')
 
-plt.subplot(332)
-plt.hist(cont_df['liveness'], bins = 20)  
-plt.xlabel('liveness')
-plt.ylabel('counts')
+//plt.subplot(332)
+//plt.hist(cont_df['liveness'], bins = 20)  
+//plt.xlabel('liveness')
+//plt.ylabel('counts')
 
-plt.subplot(333)
-plt.hist(cont_df['speechiness'], bins = 20)  
-plt.xlabel('speechiness')
-plt.ylabel('counts')
+//plt.subplot(333)
+//plt.hist(cont_df['speechiness'], bins = 20)  
+//plt.xlabel('speechiness')
+//plt.ylabel('counts')
 
-plt.subplot(334)
-plt.hist(cont_df['danceability'], bins = 20)  
-plt.xlabel('danceability')
-plt.ylabel('counts')
+//plt.subplot(334)
+//plt.hist(cont_df['danceability'], bins = 20)  
+//plt.xlabel('danceability')
+//plt.ylabel('counts')
 
-plt.subplot(335)
-plt.hist(cont_df['valence'], bins = 20)  
+//plt.subplot(335)
+//"""plt.hist(cont_df['valence'], bins = 20)  
 plt.xlabel('valence')
 plt.ylabel('counts')
 
@@ -162,6 +162,6 @@ plt.xlabel('acousticness')
 plt.ylabel('counts')
 txt="Content features regarding the track presented in context_content_features.csv"
 plt.figtext(0.5, -0.1, txt, wrap=True, horizontalalignment='center', fontsize=12, fontstyle = 'italic');
-st.pyplot(plt.gcf())
+st.pyplot(plt.gcf())"""
 
 
