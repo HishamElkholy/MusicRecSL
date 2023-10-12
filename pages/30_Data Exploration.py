@@ -93,7 +93,7 @@ st.write("- Key: musical key of the track according to pitch")
 st.write("- Mode: Related to the key of a musical track. It indicates if a track is in a minor key 0 or a major key 1")
 st.write("- Acousticness: A measure in the range from 0 to 1 indicating the influence of acoustic instruments. 0 indicates only electronic instruments 1 indicate only acoustic instruments")
 
-//cont_df = pd.read_csv('context_content_features.csv', usecols=range(0, 22))
+#"""//cont_df = pd.read_csv('context_content_features.csv', usecols=range(0, 22))
 
 //fig = plt.figure(figsize = (16, 16))
 
@@ -120,7 +120,7 @@ st.write("- Acousticness: A measure in the range from 0 to 1 indicating the infl
 //plt.ylabel('counts')
 
 //plt.subplot(335)
-//"""plt.hist(cont_df['valence'], bins = 20)  
+//plt.hist(cont_df['valence'], bins = 20)  
 plt.xlabel('valence')
 plt.ylabel('counts')
 
