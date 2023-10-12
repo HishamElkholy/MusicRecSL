@@ -15,20 +15,20 @@ st.write("- The user_track_hashtag_timestamp.csv dataset had only one missing va
 	- Dropping columns with high missing value percentages: Coordinates, geo and place columns were dropped as these variables contained around 99% of missing values.
 	- Limiting the lang variable to the top eight languages with more than 50000 entries."""
 
-cont_df = pd.read_csv('context_content_features.csv', usecols=range(0, 22))
+#cont_df = pd.read_csv('context_content_features.csv', usecols=range(0, 22))
 
-fig, ax2 = plt.subplots(1, figsize=(8, 8))
+#fig, ax2 = plt.subplots(1, figsize=(8, 8))
 
-lang_counts = cont_df['lang'].value_counts().nlargest(15)
-ax2.bar(lang_counts.index, lang_counts.values)
-ax2.set_yscale('log')
-ax2.set_title('Top 15 Languages')
-ax2.set_xlabel('Language')
-ax2.set_ylabel('Count')
-ax2.tick_params(axis='x', rotation=90)
-txt="Top 15 Languages for lang feature which describe the language song. The first 8 languages have more than 50000 entries"
-plt.figtext(0.5, -0.1, txt, wrap=True, horizontalalignment='center', fontsize=12, fontstyle = 'italic');
-st.pyplot(plt.gcf());
+#lang_counts = cont_df['lang'].value_counts().nlargest(15)
+#ax2.bar(lang_counts.index, lang_counts.values)
+#ax2.set_yscale('log')
+#ax2.set_title('Top 15 Languages')
+#ax2.set_xlabel('Language')
+#ax2.set_ylabel('Count')
+#ax2.tick_params(axis='x', rotation=90)
+#txt="Top 15 Languages for lang feature which describe the language song. The first 8 languages have more than 50000 entries"
+#plt.figtext(0.5, -0.1, txt, wrap=True, horizontalalignment='center', fontsize=12, fontstyle = 'italic');
+#st.pyplot(plt.gcf());
 #plt.show();
 
 """		
