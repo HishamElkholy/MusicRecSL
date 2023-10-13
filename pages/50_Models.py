@@ -11,9 +11,9 @@ models = st.selectbox("Please choose a model", ["-","Decision Tree Classifier", 
 
 if models == "-":
             '''Whats up this is me'''
-            """Yeah whats up"""
+            '''Yeah whats up'''
 else:
-            """No its not""""
+            '''No its not'''
 
 st.title("Decision Tree Classifier")
 
