@@ -9,7 +9,7 @@ import seaborn as sns
 
 models = st.selectbox("Please choose a model", ["-","Decision Tree Classifier", "Logistic Regression", "Classification by Decision Tree", "Classification by Random Forest", "Classification by Boosting Algorithms: AdaBoost", "Classification by Bagging Algorithm", "Gradient Boosting", "Random Forest GridSearchCV", "Deep Learning for tabular data: Dense Neural Network (DNN)"])
 
-if models == "-"
+if models == "-":
             """Whats up this is me"""
             """Yeah whats up"""
 else:
