@@ -13,8 +13,23 @@ if models == "Decision Tree Classifier":
             st.title("Decision Tree Classifier")
 
             """The Decision Tree Classifier yielded F1 scores of 0.69 for Class 0 and 0.40 for Class 1. It achieved moderate performance but struggled to accurately predict Class 1 instances, as evidenced by the lower F1 score for Class 1."""
-else:
-            '''No its not'''
+elif models == "Logistic Regression":
+            st.title("Logistic Regression")
+
+"""Logistic Regression displayed robust performance with high F1 scores of 0.81 for both Class 0 and Class 1. It effectively balanced precision and recall for both classes, resulting in accurate predictions. The confusion matrix illustrates the model's ability to classify instances correctly, with a balanced distribution of true positives and true negatives."""
+
+conf_matrix = [[111446,25273],[27378,109341]]
+
+plt.figure(figsize=(4,3))
+sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='OrRd', 
+            xticklabels=['Predicted\n Negative', 'Predicted\n Positive'], 
+            yticklabels=['Actual\n Negative', 'Actual\n Positive'])
+plt.xlabel('Predicted')
+plt.ylabel('Actual')
+plt.title('Confusion Matrix Test set')
+txt="Confusion Matrix for Logistic Regression model"
+plt.figtext(0.5, -0.2, txt, wrap=True, horizontalalignment='center', fontsize=6, fontstyle = 'italic');
+st.pyplot(plt.gcf());
 
 st.title("Decision Tree Classifier")
 
