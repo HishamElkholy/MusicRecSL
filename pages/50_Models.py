@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-"""We evaluated a range of machine learning models to predict music appreciation. Key models considered included:"""
+"""We evaluated a range of machine learning models to predict music appreciation."""
 
 models = st.selectbox("Please choose a model", ["-","Decision Tree Classifier", "Logistic Regression", "Classification by Decision Tree", "Classification by Random Forest", "Classification by Boosting Algorithms: AdaBoost", "Classification by Bagging Algorithm", "Gradient Boosting", "Random Forest GridSearchCV", "Deep Learning for tabular data: Dense Neural Network (DNN)"])
 
