@@ -88,7 +88,7 @@ elif models == "Classification by Random Forest":
 
             """Using Random Forest, the different scores for the relevant features were calculated and presented as a bar plot. Here remains the time zone of Asia & Australia as very important for the calculations. However, it is easy to observe that the “musical” scores are more valuable and relevant to the calculation of the model."""
 
-elif models == "Classification by Boosting algorithms: AdaBoost"
+elif models == "Classification by Boosting algorithms: AdaBoost":
 
             st.title("Classification by Boosting algorithms: AdaBoost")
 
@@ -107,7 +107,7 @@ elif models == "Classification by Boosting algorithms: AdaBoost"
             plt.figtext(0.5, -0.2, txt, wrap=True, horizontalalignment='center', fontsize=6, fontstyle = 'italic');
             st.pyplot(plt.gcf());
 
-elif models == "Classification by Bagging Algorithm"
+elif models == "Classification by Bagging Algorithm":
 
             st.title("Classification by Bagging Algorithm")
 
@@ -134,7 +134,7 @@ elif models == "Gradient Boosting":
 
             """The Gradient Boosting model achieved F1 scores of 0.78 for Class 0 and 0.75 for Class 1. While it provided a reasonable balance between precision and recall, it performed slightly below the Random Forest and Bagging models."""
 
-elif models == "Random Forest GridSearchCV"
+elif models == "Random Forest GridSearchCV":
 
             st.title("Random Forest GridSearchCV")
 
@@ -153,7 +153,7 @@ elif models == "Random Forest GridSearchCV"
             plt.figtext(0.5, -0.2, txt, wrap=True, horizontalalignment='center', fontsize=6, fontstyle = 'italic');
             st.pyplot(plt.gcf());
 
-elif models == "Deep Learning for tabular data: Dense Neural Network (DNN)"
+elif models == "Deep Learning for tabular data: Dense Neural Network (DNN)":
 
             st.title("Deep Learning for tabular data: Dense Neural Network (DNN)")
 
