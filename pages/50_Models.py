@@ -183,13 +183,13 @@ elif models == "Deep Learning for tabular data: Dense Neural Network (DNN)":
             plt.figtext(0.5, -0.2, txt, wrap=True, horizontalalignment='center', fontsize=6, fontstyle = 'italic');
             st.pyplot(plt.gcf());
 
-"""
+""" """
+""" """
+""" """
+""" """
+""" """
 
-
-
-
-
-Among the various machine learning models evaluated, it's evident that the Deep Learning for Tabular Data model, while achieving commendable F1 scores, did not outperform some of the traditional ML models, specifically the Classification by Random Forest.
+"""Among the various machine learning models evaluated, it's evident that the Deep Learning for Tabular Data model, while achieving commendable F1 scores, did not outperform some of the traditional ML models, specifically the Classification by Random Forest.
 
 Classification by Random Forest model demonstrated the highest overall accuracy with F1 scores of 0.90 for Class 0 and 0.91 for Class 1, surpassing the Deep Learning model. It proved to be a robust and reliable choice for accurately classifying music appreciation
 
