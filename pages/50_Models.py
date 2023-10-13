@@ -9,9 +9,10 @@ import seaborn as sns
 
 models = st.selectbox("Please choose a model", ["-","Decision Tree Classifier", "Logistic Regression", "Classification by Decision Tree", "Classification by Random Forest", "Classification by Boosting Algorithms: AdaBoost", "Classification by Bagging Algorithm", "Gradient Boosting", "Random Forest GridSearchCV", "Deep Learning for tabular data: Dense Neural Network (DNN)"])
 
-if models == "-":
-            '''Whats up this is me'''
-            '''Yeah whats up'''
+if models == "Decision Tree Classifier":
+            st.title("Decision Tree Classifier")
+
+            """The Decision Tree Classifier yielded F1 scores of 0.69 for Class 0 and 0.40 for Class 1. It achieved moderate performance but struggled to accurately predict Class 1 instances, as evidenced by the lower F1 score for Class 1."""
 else:
             '''No its not'''
 
