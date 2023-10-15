@@ -88,7 +88,7 @@ elif models == "Classification by Random Forest":
 
             """Using Random Forest, the different scores for the relevant features were calculated and presented as a bar plot. Here remains the time zone of Asia & Australia as very important for the calculations. However, it is easy to observe that the “musical” scores are more valuable and relevant to the calculation of the model."""
 
-elif models == "Classification by Boosting algorithms: AdaBoost":
+elif models == "Classification by Boosting Algorithms: AdaBoost":
 
             st.title("Classification by Boosting algorithms: AdaBoost")
 
