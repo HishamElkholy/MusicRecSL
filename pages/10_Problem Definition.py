@@ -6,11 +6,11 @@ st.write("Music is a ubiquitous part of our lives. Regardless of where or who yo
 
 st.write("Equally, music production is an activity that is older than recorded history. The oldest evidence of a musical instrument is the Divje Babe flute which is believed to be at least 50,000 years old (Turk, Turk et al. 2020). Similarly, the oldest evidence we have of musical notation is the Hurrian Hymn to Nikkal which is dated to around 1400 BCE (Figure 1).")
 
-st.image("Hurrian.png", caption = "Figure1: The cuneiform tablet on which the musical notation for the Hurrian Hymn to Nikkal was written")
+st.image("Hurrian.png", caption = "The cuneiform tablet on which the musical notation for the Hurrian Hymn to Nikkal was written")
 
 st.write("Our connection and interaction with music as a species has remained strong throughout the ages. However, with the advent of new technologies such as the radio, television, and personal computers, the way we consume and produce music has drastically changed. Not only do we have more readily available access to music as consumers, but music production has boomed as digital audio workstations (DAWs) have allowed for increased ease in the composition of songs (Figure 2).")
 
-st. image("DAW.png", caption = "Figure 2. A music producer utilizing a DAW, midi keyboard, and table-top electronic drum kit to produce music")
+st. image("DAW.png", caption = "A music producer utilizing a DAW, midi keyboard, and table-top electronic drum kit to produce music")
 
 st.write("As such, there arose a need to be able to efficiently connect music consumers with music producers based on preferences. With the increase in genres and subgenres of music, these preferences are increasingly hard to identify but the fields of artificial intelligence and machine learning have presented us with several ways this can be done.")
 
