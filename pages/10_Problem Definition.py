@@ -4,7 +4,7 @@ st.title("Introduction")
 
 st.write("Music is a ubiquitous part of our lives. Regardless of where or who you are, you have been a willing or unwilling consumer of music numerous times in your life. For some, music is tied to identity; what genres you listen to define your social group and economic standing in society. For others, music is an enhancing additive to other aspects of life such as exercising, performing chores, or partaking in religious rituals. So pervasive is it within our psyche that sociologists and anthropologists consider music to be a cultural universal alongside other concepts such as language and logical notions.")
 
-st.write("Equally, music production is an activity that is older than recorded history. The oldest evidence of a musical instrument is the Divje Babe flute which is believed to be at least 50,000 years old (Turk, Turk et al. 2020). Similarly, the oldest evidence we have of musical notation is the Hurrian Hymn to Nikkal which is dated to around 1400 BCE (Figure 1).")
+st.write("Equally, music production is an activity that is older than recorded history. The oldest evidence of a musical instrument is the Divje Babe flute which is believed to be at least 50,000 years old (Turk, Turk et al. 2020). Similarly, the oldest evidence we have of musical notation is the Hurrian Hymn to Nikkal which is dated to around 1400 BCE.")
 
 st.image("Hurrian.png", caption = "The cuneiform tablet on which the musical notation for the Hurrian Hymn to Nikkal was written")
 
