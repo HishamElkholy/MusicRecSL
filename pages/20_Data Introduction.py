@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("Twitter Datasets")
 
-st.write("We collected three Twitter datasets (Table 1) containing a total of 11.6 million music listening events, involving 139,000 users and 346,000 tracks. These datasets provided valuable insights into user behavior, context, and sentiment related to music.")
+st.write("We collected three Twitter datasets containing a total of 11.6 million music listening events, involving 139,000 users and 346,000 tracks. These datasets provided valuable insights into user behavior, context, and sentiment related to music.")
 
 df = pd.DataFrame([["user_track_hashtag_timestamp.csv", "Information about each listening event","Id, the user_id, hashtag, created_at","",""],
 ["context_content_features.csv","All context and content features","User_id, track_id, artist_id","Content features:\nInstrumentales, liveness, speechiness, among others \n \n Context features:\nCoordinates, place, geo, tweet_language, time_zone",""],
